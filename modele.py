@@ -28,12 +28,12 @@ df.to_csv("resultat.csv", index=False)
 print(df.describe())
 
 # moyenne des temperature par jour
-moy = df
-moy['value'] = moy['value'].astype(float)
-grouped = moy.groupby(moy['created_at'].dt.date)
-df_moy = grouped['value'].mean().reset_index()
-df_moy['created_at'] = pd.to_datetime(df_moy['created_at'])
-df_moy.to_csv("moyenne_par_jour.csv", index=False)
+#moy = df
+#moy['value'] = moy['value'].astype(float)
+#grouped = moy.groupby(moy['created_at'].dt.date)
+#df_moy = grouped['value'].mean().reset_index()
+#df_moy['created_at'] = pd.to_datetime(df_moy['created_at'])
+#df_moy.to_csv("moyenne_par_jour.csv", index=False)
 
 
 
