@@ -1,5 +1,9 @@
 # Premier Modele de prediction de temperature dans une maison
 
+# Description
+
+Calcul de prédiction de température dans une maison. La température est récupérée grâce à un capteur de température connecté à Adafruit. Ensuite, elle est récupérée sous le format CSV pour pouvoir être traitée par le modèle.
+
 # installation 
 
 necessite des librairie pandas, glob, numpy, matplotlib, sklearn
