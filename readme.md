@@ -1,4 +1,4 @@
-# debut Modele de prediction de temperature dans une maison
+# Debut de Modele de prediction de temperature dans une maison
 
 # Description
 
