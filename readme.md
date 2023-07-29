@@ -1,21 +1,18 @@
-# Debut de Modele de prediction de temperature dans une maison
+# Début du Modèle de prédiction de la température dans une maison
 
-# Description
+## Description
 
-Calcul de prédiction de température dans une maison. La température est récupérée grâce à un capteur de température connecté à Adafruit. Ensuite, elle est récupérée sous le format CSV pour pouvoir être traitée par le modèle.
+Ce modèle permet de prédire la température dans une maison. La température est récupérée grâce à un capteur de température connecté à Adafruit. Ensuite, les données sont récupérées sous le format CSV pour pouvoir être traitées par le modèle.
 
-# installation 
+## Installation
 
-necessite des librairie pandas, glob, numpy, matplotlib, sklearn
-apres avoir installer tout c'est librairie il faut un fichier
+Le modèle nécessite les bibliothèques suivantes : pandas, glob, numpy, matplotlib, sklearn.
+Après avoir installé toutes ces bibliothèques, il faut un fichier de données.
 
-# utilisation 
+## Utilisation
 
-pour utiliser le modele il faut un jeu de donne sous le format csv
-sous cette forme : 
+Pour utiliser le modèle, vous avez besoin d'un jeu de données au format CSV, présenté comme suit :
+
 ```csv
 id,value,feed_id,created_at,lat,lon,ele
 id-adafruit,19.20,feed_id_adafruit,2000-10-10 00:00:00 UTC,lat,lon,ele
-```
-
-ensuite vous pouvez executer le fichier modele.py
